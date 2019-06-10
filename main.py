@@ -11,7 +11,6 @@ def calculate(usb_size, memes):
     onto the USB stick to maximize its value.
     """
     usb_size *= 1024
-    memes = list(set(memes))
 
     def fitness(individual, data):
         """
